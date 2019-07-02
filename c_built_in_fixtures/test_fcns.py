@@ -35,6 +35,5 @@ def test_fib_raise(n):
 def test_fib_argv(monkeypatch):
     monkeypatch.setattr(
         'sys.argv', ["", "6"])
-    monkeypatch.se
     assert fib_argv()==13
 
